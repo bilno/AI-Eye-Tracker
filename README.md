@@ -27,12 +27,13 @@ It will be the starting point of my journey in learning about AI and coding from
 - Able to display window with camera frame
 - AI able to detect face
 - All 468 landmarks drawn and connected
-
-## Week 2
 - 
 
-## Progress
+## Week 2
+- Calibration added
+- Version 1.0 complete
 
+## Progress
 - [x] Webcam working
 - [x] Face detection
 - [x] Face landmarks
@@ -43,10 +44,12 @@ It will be the starting point of my journey in learning about AI and coding from
 - [ ] GUI
 
 ## Lessons Learned
-
 - Learned how OpenCV reads webcam frames.
 - Learned how MediaPipe detects facial landmarks.
 - Improved my debugging skills.
 
-## Version 1.0
-Eye Tracker that is functional with calibration
+## Version 1.0 - AI Eye Tracker
+Features:
+- Classifies user's gaze direction (left, right, center)
+- Implements gaze correction to improve accuracy
+- Includes calibration system to adapt tracking to different users
