@@ -20,11 +20,16 @@ It will be the starting point of my journey in learning about AI and coding from
 - Able to display window with camera frame
 - AI able to detect face
 - All 468 landmarks drawn and connected
-- 
 
 ## Week 2
 - Calibration added
 - Version 1.0 complete
+
+## Week 3
+- Started developing a web dashboard using Flask
+- Created the initial website structure
+- Connected the Flask application to the project
+- Began working on displaying eye-tracking data on the dashboard
 
 ## Progress
 - [x] Webcam working
@@ -42,7 +47,12 @@ It will be the starting point of my journey in learning about AI and coding from
 - Improved my debugging skills.
 
 ## Version 1.0 - AI Eye Tracker
-Features:
+### Features:
 - Classifies user's gaze direction (left, right, center)
 - Implements gaze correction to improve accuracy
 - Includes calibration system to adapt tracking to different users
+
+## Version 1.1 - Web Dashboard
+### Features:
+- Displays real-time eye-tracking data on a web dashboard
+- Automatically updates the dashboard with new eye-tracking data
