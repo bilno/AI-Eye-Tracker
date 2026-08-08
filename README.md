@@ -56,3 +56,7 @@ It will be the starting point of my journey in learning about AI and coding from
 ### Features:
 - Displays real-time eye-tracking data on a web dashboard
 - Automatically updates the dashboard with new eye-tracking data
+
+## Version 1.2 - Polished Web Dashboard
+### Features:
+- Improved UI for website
