@@ -58,4 +58,5 @@ It will be the starting point of my journey in learning about AI and coding from
 
 ## Version 1.2 - Polished Web Dashboard
 ### Features:
-- Improved UI for website
+- Improved the website's UI and overall presentation
+- Optimised visualisation by plotting only the left eye landmarks instead of the entire face
