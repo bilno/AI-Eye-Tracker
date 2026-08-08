@@ -39,7 +39,6 @@ It will be the starting point of my journey in learning about AI and coding from
 - [ ] Blink detection
 - [X] Gaze estimation
 - [X] Calibration
-- [ ] GUI
 
 ## Lessons Learned
 - Learned how OpenCV reads webcam frames.
