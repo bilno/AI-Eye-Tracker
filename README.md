@@ -4,12 +4,13 @@ This is an AI-powered tracking project built using Python, OpenCV and MediaPipe.
 
 It will be the starting point of my journey in learning about AI and coding from scratch.
 
-## Projected Features
-- Detect human face
-- Detect and track both eyes
-- Detect iris position
-- Detect blinks
-
+## Current Features
+- Face and eye tracking
+- Iris position detection
+- Gaze direction classification
+- Gaze correction
+- User calibration
+- Web dashboard for displaying tracking data
 
 ## Goals of Project
 - Learn and get more proficient in Python programming
@@ -41,9 +42,11 @@ It will be the starting point of my journey in learning about AI and coding from
 - [X] Calibration
 
 ## Lessons Learned
-- Learned how OpenCV reads webcam frames.
-- Learned how MediaPipe detects facial landmarks.
-- Improved my debugging skills.
+- Learned how OpenCV reads webcam frames
+- Learned how MediaPipe detects facial landmarks
+- Learned how facial landmarks can be used for gaze estimation
+- Learned how to structure and deploy a Python web application
+- Improved my debugging skills
 
 ## Version 1.0 - AI Eye Tracker
 ### Features:
