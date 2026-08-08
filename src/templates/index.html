@@ -1,0 +1,64 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>AI Eye Tracker</title>
+{% endblock %}
+
+
+{% block body %}
+<div class="dashboard">
+
+    <h1>AI Eye Tracker</h1>
+
+    <div class="direction-card">
+        <p>Current Direction</p>
+        <h2 id="direction">Waiting</h2>
+    </div>
+
+    <div Class="info-container">
+
+        <div Class="info-card" id="status-card">
+            <p>Status</p>
+            <h3 id="status">Calibrating</h3>
+        </div>
+
+        <div Class="info-card">
+            <p>Ratio</p>
+            <h3 id="ratio">0.000</h3>
+        </div>
+
+        <div Class="info-card">
+            <p>Center Ratio</p>
+            <h3 id="center_ratio">Not calibrated</h3>
+        </div>
+    </div>
+</div>
+
+<script>
+    function updateData(){
+        fetch("/data")
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById("direction").textContent = data.direction;
+                document.getElementById("direction").className = data.direction.toLowerCase();
+                document.getElementById("ratio").textContent = data.ratio.toFixed(3);
+
+                if(data.center_ratio !== null) {
+                    document.getElementById("center_ratio").textContent = 
+                        data.center_ratio.toFixed(3);
+                }
+                if(data.calibrating) {
+                    document.getElementById("status").textContent = "Calibrating..."; 
+
+                    document.getElementById("status").className = "calibrating";
+                } else {
+                    document.getElementById("status").textContent = "Ready";
+
+                    document.getElementById("status").className = "ready";
+                }
+            });
+    }
+    setInterval(updateData, 100)
+</script>
+
+{% endblock %}
