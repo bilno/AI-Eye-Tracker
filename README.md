@@ -1,4 +1,4 @@
-# AI-Eye-Tracker-
+# AI-Eye-Tracker
 
 This is an AI-powered tracking project built using Python, OpenCV and MediaPipe.
 
