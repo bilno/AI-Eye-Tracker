@@ -10,17 +10,10 @@ It will be the starting point of my journey in learning about AI and coding from
 - Detect iris position
 - Detect blinks
 
-## Technologies used
-- GitHub (obviously)
-- Python
-- OpenCV
-- MediaPipe
-- numpy
 
 ## Goals of Project
 - Learn and get more proficient in Python programming
 - Learn about AI models and how to use them
-- Prepare myself for my future course (EE)
 
 ## Week 1
 - Project started
